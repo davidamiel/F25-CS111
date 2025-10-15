@@ -1,0 +1,3 @@
+How many cats does Anna have?
+How many cats does Ellen have?
+They have a total of 5 cats! Wow!

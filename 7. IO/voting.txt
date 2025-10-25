@@ -1,0 +1,5 @@
+4
+Apple 4
+Banana 3
+Orange 2
+Pear 6

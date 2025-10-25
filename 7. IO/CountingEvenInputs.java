@@ -1,9 +1,5 @@
-public class AnasCats {
-
+public class CountingEvenInputs {
     public static void main(String[] args) {
-
-        // read 10 numbers from the user, display the number that are even
-        // using StdIn and StdOut
 
         int evenCount = 0;
         for (int i = 0; i < 10; i++) {
@@ -14,12 +10,5 @@ public class AnasCats {
             }
         }
         StdOut.println("Total even numbers: " + evenCount);
-
-    
-
-       
-        
     }
-
-    
 }

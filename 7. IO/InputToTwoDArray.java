@@ -13,8 +13,8 @@ public class InputToTwoDArray {
 
         int[][] array = new int[rows][cols];
         int currentItem = 0;
-        for (int r = 0; r < rows; r++) {
-            for (int c = 0; c < cols; c++) {
+        for (int c = 0; c < cols; c++) {
+            for (int r = 0; r < rows; r++) {
                 if (currentItem < items) {
                     array[r][c] = StdIn.readInt();
                     currentItem++;

@@ -2,7 +2,6 @@ public class CircleFunctions {
 
     // Function 1 - getRadius
     // Gets the radius of a circle from the user as an integer from the command line.
-
     public static int getRadius() {
         StdOut.println("Please enter a radius: ");
         int rad = StdIn.readInt();
@@ -20,5 +19,5 @@ public class CircleFunctions {
     public static double calculateCircuference(int rad) {
         return (2 * Math.PI * rad);
     }
-    
+
 }

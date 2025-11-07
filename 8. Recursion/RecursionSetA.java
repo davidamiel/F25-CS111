@@ -31,12 +31,12 @@ public class RecursionSetA {
         return product;
     }
 
-    public static factorialR(int n) {
+    public static int factorialR(int n) {
         if (n == 0 || n == 1) {
             return 1;
         }
         else {
-            return n * factorial(n-1);
+            return n * factorialR(n-1);
         }
     }
 

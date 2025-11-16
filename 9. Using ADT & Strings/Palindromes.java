@@ -8,17 +8,22 @@ public class Palindromes {
 
     public static String reverseString(String s) {
         String rev = "";
-        for(int i = s.length() - 1; i >=0; i--) {
+        for(int i = s.length() - 1; i >=0; i--)
             rev += s.charAt(i);
-        }
         return rev;
     }
     
     public static String reverseStringRec(String s) {
-        if (s.length() == 0) {
+        if (s.length() == 0)
             return "";
-        }
-        return s.charAt(s.length() - 1) + reverseStringRec(s.substring(0, s.length() - 1));
+        String smallPiece = "" + s.charAt(s.length() - 1);
+        String recursiveCall = reverseStringRec(s.substring(0, s.length() - 1));
+        return smallPiece + recursiveCall;
+        
+        /* 
+         * Alternatively, you could replace the three lines above with: 
+         * return s.charAt(s.length() - 1) + reverseStringRec(s.substring(0, s.length() - 1));
+         */
     }
 
     public static boolean Palindrome2(String s) {

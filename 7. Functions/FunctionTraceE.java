@@ -5,10 +5,10 @@ public class FunctionTraceE {
     }
 
     public static void printArray(double[] arr) {
-        StdOut.println();
+        System.out.println();
         for(double x : arr)
-            StdOut.print(x + "\t");
-        StdOut.println();
+            System.out.print(x + "\t");
+        System.out.println();
     }
 
     public static double[] alpha(double[] arr) {

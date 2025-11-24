@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class PracticeProblems {
 
     // Problem 1, Solution A - with a for-each loop
@@ -12,7 +14,7 @@ public class PracticeProblems {
     }
 
     // Problem 1, Solution B - with a for loop
-    public static int numWordsOfLength(ArrayList<String> list, int len) {
+    public static int numWordsOfLengthB(ArrayList<String> list, int len) {
         int count = 0;
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i).length() == len) {

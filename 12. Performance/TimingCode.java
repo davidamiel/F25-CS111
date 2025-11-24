@@ -9,8 +9,8 @@ public class TimingCode {
         // CODE HERE THAT WE WANT TO TIME
         
         end = System.currentTimeMillis(); 
-        time = end – start;
-        Standard.out.printf("%.0f seconds", time);
+        time = end - start;
+        System.out.printf("%.0f seconds", time);
     }
     
 }

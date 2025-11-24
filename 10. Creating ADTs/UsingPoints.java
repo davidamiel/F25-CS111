@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import Classes.Point;
 
 public class UsingPoints {
 
@@ -24,17 +25,8 @@ public class UsingPoints {
 
         System.out.println(pA == pB);
         System.out.println(pA.equals(5));
-
         
-
         int[] a = {1, 2, 3, 4};
-        System.out.println(Arrays.toString(a));
-        
-
-
-
-
-
-        
+        System.out.println(Arrays.toString(a));        
     }
 }
